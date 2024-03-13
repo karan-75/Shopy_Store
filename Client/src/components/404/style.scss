@@ -1,0 +1,28 @@
+@import "../../css-config/mixins.scss";
+
+.pageNotFound {
+    height: 50vh;
+    padding-top: 150px;
+
+    @include md {
+        padding-top: 215px;
+        height: 70vh;
+    }
+    .bigText {
+        color: red;
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 36px;
+        line-height: 1.2;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20%;
+        @include md {
+            font-size: 50px;
+            font-weight: 700;
+        }
+    }
+
+   
+
+}

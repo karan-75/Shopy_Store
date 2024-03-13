@@ -1,8 +1,8 @@
 import "./Search.scss";
 import { MdClose } from "react-icons/md";
-import prod from "../../../assets/products/Airdopes 141.webp";
+// import prod from "../../../assets/products/Airdopes 141.webp";
 import { useState } from "react";
-import { useFetcher, useNavigate } from "react-router-dom";
+import {  useNavigate } from "react-router-dom";
 import useFetch from "../../../hooks/useFetch";
 
 

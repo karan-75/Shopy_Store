@@ -1,5 +1,5 @@
 import useFetch from "../../../hooks/useFetch";
-import Product from "../../Products/Product/Product";
+// import Product from "../../Products/Product/Product";
 import Products from "../../Products/Products";
 
 
